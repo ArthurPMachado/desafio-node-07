@@ -2,6 +2,7 @@ service:
   name: finapiserverless
 
 plugins:
+  - serverless-offline
   - serverless-webpack
   - serverless-dynamodb-local
 
